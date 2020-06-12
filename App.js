@@ -23,8 +23,7 @@ export default function Login() {
 
             <Text style={styles.header}> Hungry? </Text>
             <Text style={styles.headerText}> Log in to view our sumptuous menu </Text>
-            <TextInput style={styles.input} placeholder='username' />
-            <TextInput style={styles.input} placeholder='Email' />
+            <TextInput style={styles.input} placeholder='Username/Email' />
             <TextInput style={styles.input} placeholder='Password' secureTextEntry={true} />
             
             <TouchableOpacity style={styles.button}> 
